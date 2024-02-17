@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+.box {
+  border: 8px solid black;
+  width: 875px;
+  margin: 2rem auto;
+}
+.content {
+  position: relative;
+}
+
+.heading {
+  background-color: white
+  text-align: center;
+  padding: 1rem;
+}
+h1 {
+  animation-name: slideIn;
+  animation-duration: 3s;
+}
+
+.price {
+  margin-top: 1rem;
+}
+
+.free {
+  font-size: large;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: white;
+  color: red;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+.details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin: 2rem;
+}
+
+span.d {
+  color: red;
+}
+.p {
+  color: blue;
+}
+.i {
+  color: coral;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  /* border-radius: 1rem; */
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border-top: 8px solid black;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

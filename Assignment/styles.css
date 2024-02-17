@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.box {
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin: 3rem 2rem;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card:last-child {
+  border: none;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 25%;
+}
+
+.person-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person-name {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-bottom: 0.25rem;
+}
+
+.person-date {
+  font-size: 1rem;
+  color: #333;
+}
+
+.ratings {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.star {
+  color: gold;
+}
+
+.comments {
+  flex-basis: 50%;
+  justify-content: space-between;
+}
